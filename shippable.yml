@@ -1,8 +1,8 @@
 language: java
 
 jdk:
--openjdk7
+	-openjdk7
 build:
 ci:
--mvn install
--mvn test
+	-mvn install
+	-mvn test
